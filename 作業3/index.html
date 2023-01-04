@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>作業3</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+	
+	<div class="container">
+		<div class="intro">
+			<img class="profile-picture" src="圖1.png" />
+			<h1>王擎宇</h1>
+			<h3>大學生</h3>
+			<p class="quote">{{ 22歲 }}</p>
+		</div>
+
+		<hr/>
+
+		<div class="about-grid">
+			<div class="i-am">
+				<h3>個人資料</h3>
+				<ul class="about-list">
+					<li>性別:男</li>
+					<li>出生年月日: 2000/10/10</li>
+					<li>興趣: 打籃球、繪畫</li>
+				</ul>
+			</div>
+			<div class="i-like">
+				<h3>聯絡資料</h3>
+				<ul class="about-list">
+					<li>聯絡電話:(07)XXX-XXXX</li>
+					<li>行動電話:09XXXXXXXX</li>
+					<li>Email信箱: XXXXXXX@gmail.com</li>
+				</ul>
+			</div>
+		</div>
+
+		<hr/>
+		<div>
+			<div >
+				<h3></h3>
+				<table class="i-am2" border="5">
+				<tr><td rowspan="4">學 歷</td><td>畢業學校</td><td>始（年/月</td><td>至（年/月</td></tr>
+				<tr><td>四維國小</td><td>2008/09</td><td>2013/06</td></tr>
+				<tr><td>鹽埕國中</td><td>2013/09</td><td>2016/06</td></tr>
+				<tr><td>復華高中</td><td>2016/09</td><td>2019/06</td></tr>
+				</table>
+
+			</div>
+		</div>
+		<hr/>
+		<div>
+			<h3 class="projects-heading">證照展示</h3>
+			<div class="projects-grid">
+				<div class="project-image-wrapper">
+					<h4>電腦軟體應用 乙級</h4>
+					<img class="project-image" src="圖2.png"/>
+				</div>
+				<div class="project-image-wrapper">
+					<h4>電腦軟體應用 丙級</h4>
+					<img class="project-image" src="圖3.png"/>
+				</div>
+				<div class="project-image-wrapper">
+					<h4>網頁設計 丙級</h4>
+					<img class="project-image" src="圖4.png"/>
+				</div>
+
+			</div>
+		</div>
+
+		<hr/>
+
+		<div class="links-and-contact">
+			<div class="links">
+				<h3>Links</h3>
+				<ul class="links-list">
+					<li>
+						<a href="https://github.com/C108156104/my_git">Github</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/">Twitter</a>
+					</li>
+				</ul>
+			</div>
+
+			<div>
+				<form action="#">
+					<label for="email">
+						<h4>Email</h4>
+						<input type="email" id="email" placeholder="Enter your email" />
+					</label>
+					<label for="message">
+						<h4>Message</h4>
+						<textarea id="message" placeholder="Your message"></textarea>
+					</label>
+					<div class="submit-button-wrapper">
+						<input type="submit" value="Send Message" id="submit-button" />
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
